@@ -14,7 +14,11 @@
   </head>
   <body>
     <div class="main-container">
-      <div class="header"></div>
+      <div class="header">
+        <span class="dot"
+          ><img src="images/icon-star.svg" alt="Header SVG" srcset=""
+        /></span>
+      </div>
       <div class="body">
         <h1 class="heading">How did we do?</h1>
         <p class="para">
@@ -23,11 +27,30 @@
         </p>
       </div>
       <div class="form">
-        <input type="radio" name="rating" id="" /><label for="rating">1</label>
-        <input type="radio" name="rating" id="" /><label for="rating">2</label>
-        <input type="radio" name="rating" id="" /><label for="rating">3</label>
-        <input type="radio" name="rating" id="" /><label for="rating">4</label>
-        <input type="radio" name="rating" id="" /><label for="rating">5</label>
+        <label id="rating" class="lbl" for="1">
+          <input type="radio" class="hidden" name="rating" id="1" />
+          <span class="lbl">1</span>
+        </label>
+
+        <label id="rating" for="2">
+          <input type="radio" class="hidden" name="rating" id="2" />
+          <span>2</span>
+        </label>
+
+        <label id="rating" for="3">
+          <input type="radio" class="hidden" name="rating" id="3" />
+          <span>3</span>
+        </label>
+
+        <label id="rating" for="4">
+          <input type="radio" class="hidden" name="rating" id="4" />
+          <span>4</span>
+        </label>
+
+        <label id="rating" for="5">
+          <input type="radio" class="hidden" name="rating" id="5" />
+          <span>5</span>
+        </label>
       </div>
       <button type="submit">Submit</button>
     </div>
