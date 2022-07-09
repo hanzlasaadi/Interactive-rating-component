@@ -4,6 +4,7 @@
 #####################################################
 *.sketch
 *.fig
+rough.txt
 
 # Avoid accidental XD upload if you convert the design file
 ###############################################
