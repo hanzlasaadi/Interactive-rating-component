@@ -4,6 +4,15 @@
   box-sizing: border-box;
 }
 
+.hidden {
+  display: none;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 body {
   font-family: "Overpass", sans-serif;
   color: #fff;
@@ -26,13 +35,13 @@ body {
   padding: 0.7rem 0 0.7rem 0;
 }
 
-.para {
+p {
   font-size: 15px;
   font-weight: 400;
   color: hsl(217, 12%, 63%);
 }
 
-.heading {
+h1 {
   font-weight: 700;
   font-size: 1.5rem;
 }
@@ -95,7 +104,6 @@ label span {
 
 button {
   /* display: block; */
-  width: 100%;
   /* margin: 10px 10px 10px 100px; */
   margin: 0 auto;
   margin-top: 1.2rem;
@@ -108,4 +116,24 @@ button {
   width: 100%;
   background-color: hsl(25, 97%, 53%);
   color: #fff;
+  cursor: pointer;
+}
+
+.big-dot {
+  border-radius: 10% / 90%;
+  color: hsl(25, 97%, 53%);
+  text-align: center;
+  padding: 0.4rem;
+  margin: 1rem;
+  width: 60%;
+  margin: 0 auto;
+  background: hsl(213, 20%, 22%);
+}
+
+span.thanks > img {
+  margin-bottom: 2rem;
+}
+
+p.thanks {
+  text-align: center;
 }

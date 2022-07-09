@@ -14,19 +14,32 @@
   </head>
   <body>
     <div class="main-container">
-      <div class="header">
-        <span class="dot"
-          ><img src="images/icon-star.svg" alt="Header SVG" srcset=""
-        /></span>
+      <div class="first header">
+        <span class="dot">
+          <img src="images/icon-star.svg" alt="Header SVG" />
+        </span>
+      </div>
+      <div class="thanks hidden">
+        <span class="thanks hidden">
+          <img src="images/illustration-thank-you.svg" alt="thanks" />
+        </span>
       </div>
       <div class="body">
-        <h1 class="heading">How did we do?</h1>
-        <p class="para">
+        <div class="thanks hidden">
+          <span class="big-dot">You selected - out of 5</span>
+        </div>
+        <h1 class="first heading">How did we do?</h1>
+        <h1 class="thanks hidden">Thank you!</h1>
+        <p class="first para">
           Please let us know how we did with your support request?. All feedback
           is appreciated to help us improve our offering!
         </p>
+        <p class="thanks hidden">
+          We appreciate you taking the time to give a rating. If you ever need
+          more support, don't hesitate to get in touch!
+        </p>
       </div>
-      <div class="form">
+      <div class="first form">
         <label>
           <input type="radio" name="options" />
           <span>1</span>
@@ -52,7 +65,7 @@
           <span>5</span>
         </label>
       </div>
-      <div class="footer">
+      <div id="footer" class="first">
         <button type="submit">Submit</button>
       </div>
     </div>
