@@ -64,8 +64,7 @@ input[type="radio"] {
 }
 
 input[type="radio"]:focus {
-  /*no need, if you don't disable default appearance*/
-  outline: none; /*to remove the square border on focus*/
+  outline: none;
 }
 
 input[type="radio"]:hover {
@@ -75,10 +74,6 @@ input[type="radio"]:hover {
 label span:hover ~ input[type="radio"] {
   background-color: #fb7413;
 }
-
-/* label span:hover {
-  background-color: #fb7413;
-} */
 
 input[type="radio"]:checked {
   /*no need, if you don't disable default appearance*/
@@ -103,8 +98,6 @@ label span {
 }
 
 button {
-  /* display: block; */
-  /* margin: 10px 10px 10px 100px; */
   margin: 0 auto;
   margin-top: 1.2rem;
   padding: 0.7rem;
